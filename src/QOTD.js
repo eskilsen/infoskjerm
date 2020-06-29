@@ -19,10 +19,10 @@ const QOTD = () => {
 
 return(
     quote ? (
-    <div class = "QOTD">
+    <div className = "QOTD">
         <br/>
         <br/>
-        <h1>{quote}</h1>
+        <code>{quote}</code>
     </div>
     ) : <></>
 )
